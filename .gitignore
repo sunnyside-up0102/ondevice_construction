@@ -1,0 +1,22 @@
+# 가상환경
+.venv/
+
+# 데이터셋 (용량 큼, 공개 데이터라 다운로드 방법만 README에 기록)
+construction-ppe-ultralytics-11/images/
+construction-ppe-ultralytics-11/labels/
+*.cache
+
+# 학습 결과와 가중치
+runs/**/weights/
+runs/**/*.jpg
+runs/**/train_exp*.txt
+*.pt
+*.onnx
+*.dxnn
+
+# 노트북/파이썬 임시 파일
+.ipynb_checkpoints/
+__pycache__/
+
+# 제출용 문서
+제출용 자료/
