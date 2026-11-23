@@ -1,0 +1,5 @@
+condition,weights,freeze,cls_pw,epochs,train_images,image_exposures,optimizer,lr0,train_time_min,backbone_max_diff,bn_stat_max_diff,backbone_frozen,best_epoch,best_mAP50-95_in_train,last_mAP50-95_in_train,val_mAP50,val_mAP50-95
+v8n_head,yolov8n.pt,22,0.0,50,884,44200,AdamW,0.000667,26.37,0.0,0.0,True,50,0.4269,0.4269,0.6704,0.4269
+v8n_full,yolov8n.pt,,0.0,50,884,44200,AdamW,0.000667,26.9,0.09082,5.193604,False,49,0.5444,0.5433,0.7828,0.5432
+v11n_head,yolo11n.pt,23,0.0,50,884,44200,AdamW,0.000667,26.59,0.0,0.0,True,49,0.3907,0.3896,0.6113,0.3915
+v11n_full,yolo11n.pt,,0.0,50,884,44200,AdamW,0.000667,26.68,0.07666,4.006958,False,46,0.5506,0.5447,0.778,0.5513

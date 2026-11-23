@@ -20,3 +20,8 @@ __pycache__/
 
 # 제출용 문서
 제출용 자료/
+# 압축 파일, 텐서보드 로그
+*.zip
+runs/**/events.out.tfevents*
+
+

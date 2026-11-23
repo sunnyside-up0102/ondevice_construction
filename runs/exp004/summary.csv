@@ -1,0 +1,2 @@
+condition,weights,freeze,cls_pw,epochs,train_images,image_exposures,optimizer,lr0,train_time_min,backbone_max_diff,bn_stat_max_diff,backbone_frozen,best_epoch,best_mAP50-95_in_train,last_mAP50-95_in_train,val_mAP50,val_mAP50-95
+v8n_full,yolov8n.pt,,0.0,100,884,88400,AdamW,0.000667,52.23,0.136719,5.463135,False,73,0.5458,0.5401,0.7861,0.5456

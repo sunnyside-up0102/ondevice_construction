@@ -1,0 +1,12 @@
+exp_name: exp001
+use_repeat: true
+cls_pw: 0.0
+rare_ratio: 0.5
+epochs: 50
+imgsz: 640
+batch: 16
+seed: 0
+torch: !!python/object/new:torch.torch_version.TorchVersion
+- 2.5.1+cu121
+ultralytics: 8.4.216
+gpu: NVIDIA GeForce RTX 3080
