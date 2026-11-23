@@ -25,3 +25,5 @@ __pycache__/
 runs/**/events.out.tfevents*
 
 
+# 그래프 이미지
+runs/**/*.png
